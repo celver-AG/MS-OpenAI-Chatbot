@@ -80,6 +80,7 @@ export const QuestionInput = ({ onSend, disabled, placeholder, clearOnSend, conv
         className={styles.questionInputTextArea}
         placeholder={placeholder}
         multiline
+        autoAdjustHeight
         resizable={false}
         borderless
         value={question}
