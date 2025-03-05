@@ -1,5 +1,7 @@
 .questionInputContainer {
-  height: 120px;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
   position: absolute;
   left: 6.5%;
   right: 0%;
@@ -13,6 +15,7 @@
 }
 
 .questionInputTextArea {
+  flex-grow: 1;
   width: 100%;
   line-height: 40px;
   margin-top: 10px;
